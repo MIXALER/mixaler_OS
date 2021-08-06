@@ -10,7 +10,9 @@
     <select />
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="mixalerOS" targetName="for_upload_test" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -19,7 +21,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5429bed7-9263-41a7-8f2c-3d7b1a71a116" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/boot.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for_upload_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/types.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/init/entry.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/kernel.ld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mixalerOS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mixalerOS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +38,14 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,11 +62,28 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\mixalerOS" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="for_upload_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="mixalerOS" TARGET_NAME="for_upload_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="mixalerOS" RUN_TARGET_NAME="for_upload_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -60,7 +95,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617619763397</updated>
-      <workItem from="1617619764575" duration="40000" />
+      <workItem from="1617619764575" duration="2224000" />
+      <workItem from="1619435950269" duration="12565000" />
     </task>
     <servers />
   </component>
@@ -77,5 +113,36 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="313" y="88" key="#Deployment" timestamp="1619502912467">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="313" y="88" key="#Deployment/0.0.1440.860/2880.0.1920.1040@0.0.1440.860" timestamp="1619502912467" />
+    <state x="466" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619438098742">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="466" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860/2880.0.1920.1040@0.0.1440.860" timestamp="1619438098742" />
+    <state width="542" height="213" key="GridCell.Tab.0.bottom" timestamp="1619587911052">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="542" height="213" key="GridCell.Tab.0.bottom/0.0.1440.860/2880.0.1920.1040@0.0.1440.860" timestamp="1619587911052" />
+    <state width="542" height="213" key="GridCell.Tab.0.center" timestamp="1619587911052">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="542" height="213" key="GridCell.Tab.0.center/0.0.1440.860/2880.0.1920.1040@0.0.1440.860" timestamp="1619587911052" />
+    <state width="542" height="213" key="GridCell.Tab.0.left" timestamp="1619587911052">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="542" height="213" key="GridCell.Tab.0.left/0.0.1440.860/2880.0.1920.1040@0.0.1440.860" timestamp="1619587911052" />
+    <state width="542" height="213" key="GridCell.Tab.0.right" timestamp="1619587911052">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="542" height="213" key="GridCell.Tab.0.right/0.0.1440.860/2880.0.1920.1040@0.0.1440.860" timestamp="1619587911052" />
+    <state x="222" y="74" key="SettingsEditor" timestamp="1619436388499">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="222" y="74" key="SettingsEditor/0.0.1440.860/2880.0.1920.1040@0.0.1440.860" timestamp="1619436388499" />
   </component>
 </project>
